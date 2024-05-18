@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 41.5%;
+}
+
+.celda {
+    width: 30%;
+    height: 100px;
+    display: flex;
+    font-size: 60px;
+    cursor: pointer;
+    justify-content: center;
+}
